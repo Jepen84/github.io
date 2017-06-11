@@ -1,9 +1,35 @@
+@font-face {
+    font-family: 'afgangitalic';
+    src: url('afgang-regularitalic-webfont.woff2') format('woff2'),
+	     url('afgang-regularitalic-webfont.eot') format('eot'),
+		 url('afgang-regularitalic-webfont.ttf') format('ttf'),
+         url('afgang-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'afgangitalic';
+    src: url('afgang-regular-webfont.woff2') format('woff2'),
+	     url('afgang-regular-webfont.eot') format('eot'),
+		 url('afgang-regular-webfont.ttf') format('ttf'),
+         url('afgang-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .one a {
     color: black;
     font-size: 40px;
-    font-family: serif;
+    font-family: afgang-regular;
     text-decoration:  none !important;
 }
+
+a:hover, a:focus {
+ 
+	font-family: afgang-regularitalic 
 
 
 #Zichtbaar a span { 
