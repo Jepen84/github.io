@@ -22,11 +22,16 @@
 
 .one a {
     color: black;
-    font-size: 40px;
+    font-size: 60px;
     font-family: afgang-regular;
     text-decoration:  none !important;
 }
 
+
+.one a:hover, .one a:focus {
+ 
+	font-family: afgang-regularitalic 
+}
 
 
 #Zichtbaar a span { 
