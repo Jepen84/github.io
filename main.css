@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'afgangitalic';
-    src: url('afgang-regularitalic-webfont.woff2') format('woff2'),
-	     url('afgang-regularitalic-webfont.eot') format('eot'),
-		 url('afgang-regularitalic-webfont.ttf') format('ttf'),
-         url('afgang-regularitalic-webfont.woff') format('woff');
+    src: url('.fonts/afgang-regularitalic-webfont.woff2') format('woff2'),
+	     url('.fonts/afgang-regularitalic-webfont.eot') format('eot'),
+		 url('.fonts/afgang-regularitalic-webfont.ttf') format('ttf'),
+         url('.fonts/afgang-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -11,10 +11,10 @@
 
 @font-face {
     font-family: 'afgangitalic';
-    src: url('afgang-regular-webfont.woff2') format('woff2'),
-	     url('afgang-regular-webfont.eot') format('eot'),
-		 url('afgang-regular-webfont.ttf') format('ttf'),
-         url('afgang-regular-webfont.woff') format('woff');
+    src: url('.fonts/afgang-regular-webfont.woff2') format('woff2'),
+	     url('.fonts/afgang-regular-webfont.eot') format('eot'),
+		 url('.fonts/afgang-regular-webfont.ttf') format('ttf'),
+         url('.fonts/afgang-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
