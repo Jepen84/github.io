@@ -6,11 +6,28 @@
 }
 
 
+#Zichtbaar a span { 
+	display:none; 
+    background-image: url("http://www.jeppependrup.com/wp-content/uploads/2016/06/hum7.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+    z-index:-100;
+	left: 0%;
+	top: 0%;
+     z-index:-9999;
+}
 
+
+#Zichtbaar a:hover span { 
+	display:block;
+}
 
 #afgang a span { 
 	display:none; 
-    background-image: url("http://www.jeppependrup.com/wp-content/uploads/2016/06/hum7.jpg");
+    background-image: url("http://jeppependrup.com/wp-content/uploads/2017/01/afgang2-1612x1140.jpg");
     background-size: cover;
     background-position: 50% 50%;
     position: fixed;
