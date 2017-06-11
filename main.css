@@ -27,15 +27,7 @@
     text-decoration:  none !important;
 }
 
-.one a:hover, .one a:focus {
- 
-	font-family: afgang-regularitalic 
 
-.one a:hover {
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
 
 #Zichtbaar a span { 
 	display:none; 
