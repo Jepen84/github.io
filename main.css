@@ -27,7 +27,7 @@
 
 #afgang a span { 
 	display:none; 
-    background-image: url("https://github.com/Jepen84/images/blob/master/ottoface.jpg");
+    background-image: url("https://github.com/Jepen84/images/blob/master/ottoface.jpg?raw=true");
     background-size: cover;
     background-position: 50% 50%;
     position: fixed;
