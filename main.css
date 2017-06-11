@@ -8,7 +8,7 @@
 
 #Zichtbaar a span { 
 	display:none; 
-    background-image: url("https://github.com/Jepen84/github.io/blob/master/images/ottoface.jpg");
+    background-image: url("https://raw.githubusercontent.com/Jepen84/github.io/master/images/ottoface.jpg");
     background-size: cover;
     background-position: 50% 50%;
     position: fixed;
