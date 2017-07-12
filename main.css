@@ -27,7 +27,7 @@ font-face {
 
 /* PRELOAD */
 
-#preload { display: none; }
+#preload { visibility: hidden; }
 
 
 /* ABOUT */
