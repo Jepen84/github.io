@@ -25,6 +25,10 @@ font-face {
    
 }
 
+/* PRELOAD */
+
+#preload { display: none; }
+
 
 /* ABOUT */
 
