@@ -1,5 +1,5 @@
 
-font-face {
+@font-face {
     font-family: 'afgangitalic';
     src: url('.custom typefaces/afgang-regularitalic-webfont.woff2') format('woff2'),
 	     url('.custom typefaces/afgang-regularitalic-webfont.eot') format('eot'),
