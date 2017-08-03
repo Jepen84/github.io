@@ -1,14 +1,4 @@
 
-@font-face {
-    font-family: 'afgang-regularitalic';
-    src: url('.fontface/afgang-regularitalic-webfont.woff2') format('woff2'),
-	     url('.fontface/afgang-regularitalic-webfont.eot') format('eot'),
-		 url('.fontface/afgang-regularitalic-webfont.ttf') format('ttf'),
-         url('.fontface/afgang-regularitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 @font-face {
     font-family: 'afgang-regular';
@@ -16,6 +6,17 @@
 	     url('.fontface/afgang-regular-webfont.eot') format('eot'),
 		 url('.fontface/afgang-regular-webfont.ttf') format('ttf'),
          url('.fontface/afgang-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'afgang-regularitalic';
+    src: url('.fontface/afgang-regularitalic-webfont.woff2') format('woff2'),
+	     url('.fontface/afgang-regularitalic-webfont.eot') format('eot'),
+		 url('.fontface/afgang-regularitalic-webfont.ttf') format('ttf'),
+         url('.fontface/afgang-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
