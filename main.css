@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Afgang-Regular';
-    src: url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.ttf') format('ttf');
+    src: url('../fonts/Afgang-Regular.ttf') format('ttf');
          font-weight: normal;
     	 font-style: normal;
 
@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Afgang-Regularitalic';
-    src: url('.fontface/afgang-regularitalic-webfont.ttf') format('ttf');
+    src: url('../fonts/Afgang-Regularitalic.ttf') format('ttf');
          font-weight: normal;
     	 font-style: italic;
 
