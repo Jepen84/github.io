@@ -196,14 +196,14 @@ label {
 .one a {
     color: black;
     font-size: 70px;
-    font-family: afgang-regular;
+    font-family: afgang-regular, serif;
     text-decoration: none !important;
     
 }
 
 
 .one a:hover, .one a:focus {
-    font-family: afgang-regularitalic; 
+    font-family: afgang-regularitalic, serif; 
    }
 
 
