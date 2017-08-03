@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Afgang-Regular';
-    src: url('./fonts/Afgang-Regularitalic.ttf') format('truetype');
+    font-family: 'Afgang-RegularItalic';
+    src: url('./fonts/Afgang-RegularItalic.ttf') format('truetype');
          font-weight: normal;
-    	 font-style: normal;
+    	 font-style: italic;
 
 	
 }
