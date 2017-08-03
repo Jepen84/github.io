@@ -18,6 +18,10 @@
 	
 }
 
+.hidden {
+    font-family: Afgang-RegularItalic;
+}
+
 
 body:after{
  visibility: hidden;
