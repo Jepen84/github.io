@@ -11,7 +11,7 @@ font-face {
 }
 
 @font-face {
-    font-family: 'afgangitalic';
+    font-family: 'afgang';
     src: url('.custom typefaces/afgang-regular-webfont.woff2') format('woff2'),
 	     url('.custom typefaces/afgang-regular-webfont.eot') format('eot'),
 		 url('.custom typefaces/afgang-regular-webfont.ttf') format('ttf'),
@@ -196,14 +196,14 @@ label {
 .one a {
     color: black;
     font-size: 70px;
-    font-family: afgang-regular, serif;
+    font-family: afgang, serif;
     text-decoration: none !important;
     
 }
 
 
 .one a:hover, .one a:focus {
-    font-family: afgang-regularitalic, serif; 
+    font-family: afgang-italic, serif; 
    }
 
 
