@@ -6,7 +6,7 @@
 		 url('../custom typefaces/afgang-regularitalic-webfont.ttf') format('ttf'),
          url('../custom typefaces/afgang-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 
 }
 
