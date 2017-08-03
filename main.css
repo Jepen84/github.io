@@ -1,24 +1,19 @@
 
 
 @font-face {
-    font-family: 'afgang-regular';
-    src: url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.eot') format('eot'),
-	url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.ttf') format('ttf'),
-         
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Afgang-Regular';
+    src: url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.ttf') format('ttf');
+         font-weight: normal;
+    	 font-style: normal;
 
 	
 }
 
 @font-face {
-    font-family: 'afgang-regularitalic';
-    src: url('.fontface/afgang-regularitalic-webfont.woff2') format('woff2'),
-	     url('.fontface/afgang-regularitalic-webfont.eot') format('eot'),
-		 url('.fontface/afgang-regularitalic-webfont.ttf') format('ttf'),
-         url('.fontface/afgang-regularitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Afgang-Regularitalic';
+    src: url('.fontface/afgang-regularitalic-webfont.ttf') format('ttf');
+         font-weight: normal;
+    	 font-style: italic;
 
 }
 
@@ -198,14 +193,14 @@ label {
 .one a {
     color: black;
     font-size: 70px;
-    font-family: afgang-regular;
+    font-family: Afgang-Regular;
     text-decoration: none !important;
     
 }
 
 
 .one a:hover, .one a:focus {
-    font-family: afgang-regularitalic; 
+    font-family: Afgang-Regularitalic; 
    }
 
 
