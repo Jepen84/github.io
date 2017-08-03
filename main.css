@@ -2,10 +2,9 @@
 
 @font-face {
     font-family: 'afgang-regular';
-    src: url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.woff2') format('woff2'),
-	     url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.eot') format('eot'),
-		 url('.https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.ttf') format('ttf'),
-         url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.woff') format('woff');
+    src: url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.eot') format('eot'),
+	url('https://github.com/Jepen84/github.io/blob/gh-pages/fontface/Afgang-Regular.ttf') format('ttf'),
+         
     font-weight: normal;
     font-style: normal;
 
