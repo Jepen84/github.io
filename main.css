@@ -24,12 +24,6 @@
 }
 
 
-body:after{
- visibility: hidden;
- content: url("https://jepen84.github.io/github.io/images/compofront.jpg"), url("https://jepen84.github.io/github.io/images/futuregradient.jpg"),
- url("https://jepen84.github.io/github.io/images/futuregradient.jpg");
-}
-
 .body {
     background-color: rgb(255, 255, 255);
    
