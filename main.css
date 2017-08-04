@@ -21,6 +21,7 @@
 .hidden {
 	font-family: Afgang-RegularItalic;
 	visibility: hidden;
+	margin: -25px;
 }
 
 
