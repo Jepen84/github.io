@@ -19,7 +19,8 @@
 }
 
 .hidden {
-    font-family: Afgang-RegularItalic;
+	font-family: Afgang-RegularItalic;
+	visibility: hidden;
 }
 
 
