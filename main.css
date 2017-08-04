@@ -295,7 +295,7 @@ label {
 
 #afgang a span { 
 	display:none; 
-    background-image: url("https://jepen84.github.io/github.io/images/afgang_gul.jpg");
+    background-image: url("https://jepen84.github.io/github.io/images/afgang_gul.png");
     background-size: cover;
     background-position: 50% 50%;
     position: fixed;
@@ -334,7 +334,7 @@ label {
 
 #future a span { 
 	display:none; 
-    background-image: url("https://jepen84.github.io/github.io/images/futuregradient.jpg");
+    background-image: url("https://jepen84.github.io/github.io/images/futuregradient.png");
     background-size: cover;
     background-position: 50% 50%;
     position: fixed;
