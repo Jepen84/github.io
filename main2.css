@@ -1,0 +1,372 @@
+
+
+@font-face {
+    font-family:'AfgangBOOK-Regular';
+    src: url('./fonts/AfgangBOOK-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+@font-face {
+    font-family: 'AfgangBOOK-RegularItalic';
+    src: url('./fonts/AfgangBOOK-RegularItalic.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: italic;
+
+	
+}
+
+@font-face {
+    font-family: 'ZBgrotesk-Regular';
+    src: url('./fonts/Another-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+
+/* PRELOAD */
+
+.hidden {
+	font-family: AfgangBOOK-RegularItalic;
+	visibility: hidden;
+    margin: -25px;
+   background-image: url("https://jepen84.github.io/github.io/images/flag1500.gif");
+}
+
+
+/* BODY */
+
+.body {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+/* ABOUT */
+
+.about {
+     color: black !important;
+    text-decoration: none !important;
+    font-family: "ZBgrotesk-Book", sans-serif;
+    font-size: 30px;
+    bottom:27px;
+    right: 35px;
+    position: fixed;
+}
+    
+        
+
+
+
+.about:checked {
+    display:block;
+    
+       
+}
+
+
+input[id=about] {
+    display:none;
+    
+   
+
+}
+
+#content{
+    background-color: rgb(238,252,144);
+    display: none;
+    position: fixed;
+    width: 300px;
+    padding: 30px;
+    right: 35px;
+    margin-bottom: 45px;
+      
+}
+
+#about:checked~#content{
+    display: block;
+    position: fixed;
+    font-size: 25px;
+    text-align: left;
+    top: 100px;
+    cursor: default;
+    padding: 25px;
+    padding-bottom: 35px;
+    font-family: "ZBgrotesk-Regular", sans-serif;
+    
+    
+}
+
+
+/* RADIO 
+
+input[id=cb] {
+  display: none;
+  
+}
+
+input[id=cb]:checked~#future {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+}
+
+input[id=cb]:checked~#compo {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+input[id=cb]:checked + label {
+  color: 0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}     
+
+
+input[id=cb2] {
+  display: none;
+}
+
+input[id=cb2]:checked~#quick {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+  
+}
+
+input[id=cb2]:checked~#zicht1 {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+  
+}
+
+input[id=cb2]:checked~#afgang {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+}
+
+input[id=cb2]:checked~#miki {
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+}
+
+input[id=cb2]:checked + label {
+  color: 0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}   
+
+
+input[id=cb3] {
+  display: none;
+}
+
+input[id=cb3]:checked + label {
+  color: 0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}     
+
+
+label {
+  border: none;
+  padding-left: 0px;
+  padding-top: 10px;    
+  display: inline-block;
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+    
+
+}
+
+*/
+
+p {
+    
+    font-family: "ZBgrotesk-Regular", sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    line-height: 0px;
+   
+    
+
+    
+    
+}
+
+/* left */
+
+
+.one {
+   
+    padding-left: 40px;
+    padding-top: 25px;
+    width: 45%;
+
+}
+
+.one a {
+    color: black;
+    font-size: 3.5em;
+    font-family: AfgangBOOK-Regular;
+    text-decoration: none !important;
+    
+}
+
+
+.one a:hover, .one a:focus {
+    font-family: AfgangBOOK-Regularitalic; 
+   }
+
+
+
+
+
+
+/* IMAGES */
+
+
+#quick a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/quickmain.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0%;
+	top: 0%;
+    z-index:-9999;
+}
+
+
+#quick a:hover span { 
+	display: block;
+}
+#compo a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/compofront.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0%;
+	top: 0%;
+    z-index:-9999;
+}
+
+
+#compo a:hover span { 
+	display:block;
+}
+
+#afgang a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/afgang_gul.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#afgang a:hover span { 
+	display:block;
+}
+
+
+#ZBgrotesk a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/zbmain.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#ZBgrotesk a:hover span { 
+	display:block;
+}
+
+
+
+    #miki a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/mikifront.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+     z-index:-9999;
+}
+
+
+#miki a:hover span { 
+	display:block;
+}
+
+
+
+#future a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/futuregradient.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#future a:hover span { 
+	display:block;
+}
+
+
+#misc a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/mischfront.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#misc a:hover span { 
+	display:block;
+}
+*/

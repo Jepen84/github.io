@@ -1,0 +1,186 @@
+
+
+@font-face {
+    font-family:'AfgangBOOK-Regular';
+    src: url('./fonts/AfgangBOOK-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+@font-face {
+    font-family: 'AfgangBOOK-RegularItalic';
+    src: url('./fonts/AfgangBOOK-RegularItalic.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: italic;
+
+	
+}
+
+@font-face {
+    font-family: 'ZBgrotesk-Regular';
+    src: url('./fonts/ZBgrotesk-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+@font-face {
+    font-family: 'ZBgrotesk-Book';
+    src: url('./fonts/ZBgrotesk-Book.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+
+/* PRELOAD */
+
+
+/* BODY */
+
+.body {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+/* ABOUT */
+
+
+label {
+    position:fixed;
+}
+
+.about {
+    color: black !important;
+    font-size: 30px;
+    font-family: "ZBgrotesk-Book", sans-serif;
+    text-decoration: none !important;
+	text-align: left;
+	position: absolute;
+    display: block;
+    top: 27px;
+    left: 35px;
+    z-index: 9999;
+      
+}
+    
+        
+
+
+
+.about:checked {
+    display:block;
+    position: fixed;
+       
+}
+
+#about:hover~label{
+    
+    display: block;
+    color: rgb(238,252,144);
+    cursor: pointer;
+   
+}
+  
+
+#about:checked~label{
+    
+    text-decoration: underline;
+    position: fixed;
+    color: rgb(238,252,144);
+   
+}
+   
+
+
+input[id=about] {
+    display:none;
+
+}
+
+#content{
+    background-color: rgb(238,252,144);
+    display: none;
+    position: absolute;
+    width: 600px;
+    padding: 30px;
+    left: 250px;
+    margin-bottom: 45px;
+     
+}
+
+#about:checked~#content{
+    
+    display: block;
+    font-size: 30px;
+    text-align: left;
+    top: 100px;
+    cursor: default;
+    padding: 25px;
+    padding-bottom: 35px;
+    font-family: "ZBgrotesk-regular", sans-serif;
+        
+}
+
+ 
+    
+
+
+/* IMAGES */
+
+.imagewrapper {
+    
+    float:left;
+    z-index: -9999;
+    
+   
+}
+
+
+
+img {
+    display:block;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    z-index: -9999;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* BACK */
+
+.back {
+    display:block;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+    font-family: "ZBgrotesk-Book", sans-serif;
+    font-size: 30px;
+    top:27px;
+    right: 35px;
+    position: fixed;
+}
+
+
+.back a:hover {
+    color: rgb(238,252,144)
+   }

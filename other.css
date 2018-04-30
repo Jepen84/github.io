@@ -1,0 +1,291 @@
+
+
+@font-face {
+    font-family:'AfgangBOOK-Regular';
+    src: url('./fonts/AfgangBOOK-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+@font-face {
+    font-family: 'AfgangBOOK-RegularItalic';
+    src: url('./fonts/AfgangBOOK-RegularItalic.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: italic;
+
+	
+}
+
+@font-face {
+    font-family: 'ZBgrotesk-Regular';
+    src: url('./fonts/ZBgrotesk-Regular.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+@font-face {
+    font-family: 'ZBgrotesk-Book';
+    src: url('./fonts/ZBgrotesk-Book.woff2') format('woff2');
+         font-weight: normal;
+    	 font-style: normal;
+
+	
+}
+
+
+/* PRELOAD */
+
+
+/* BODY */
+
+.body {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+/* ABOUT */
+
+.about {
+    color: black;
+    text-decoration: none !important;
+    font-family: "ZBgrotesk-Book", sans-serif;
+    font-size: 30px;
+    bottom:27px;
+    right: 35px;
+    position: fixed;
+    z-index: 2;
+}
+    
+        
+.about:hover {
+    color: rgb(238,252,144);    
+}
+
+
+.about:checked {
+    display:block;
+    
+       
+}
+
+
+input[id=about] {
+    display:none;
+    
+   
+
+}
+
+#content{
+    background-color:none;
+    display: none;
+    position: absolute;
+    width: 80%;
+    left: 35px;
+    margin-bottom: 45px;
+    z-index: -99;
+      
+}
+
+#about:checked~#content{
+    display: block;
+    position: fixed;
+    font-size: 55px;
+    text-align: left;
+    top: 2px;
+    cursor: default;
+    padding: 25px;
+    padding-bottom: 35px;
+    font-family: "ZBgrotesk-Regular", sans-serif;
+    color: rgb(238,252,144);
+    
+    
+}
+
+
+
+
+    
+    
+}
+
+/* center */
+
+
+.center {
+    display: block;
+    
+    
+
+}
+
+.center a {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    color: black;
+    font-size: 3.5em;
+    font-family: "ZBgrotesk-Regular";
+    text-decoration: none !important;
+    
+    
+}
+
+
+.center a:hover, .one a:focus {
+    color: rgb(238,252,144)
+   }
+
+
+
+
+
+
+
+
+
+
+/* IMAGES */
+
+
+
+#compo a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/compofront.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0%;
+	top: 0%;
+    z-index:-9999;
+}
+
+
+#compo a:hover span { 
+	display:block;
+}
+
+
+#crisis a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/crisishover.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0%;
+	top: 0%;
+    z-index:-9999;
+}
+
+
+#crisis a:hover span { 
+	display:block;
+}
+
+#gdfb a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/gdfbhover.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0%;
+	top: 0%;
+    z-index:-9999;
+}
+
+
+#gdfb a:hover span { 
+	display:block;
+}
+
+
+#future a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/futuregradient.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#future a:hover span { 
+	display:block;
+}
+
+#elvs a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/elvshover.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#elvs a:hover span { 
+	display:block;
+}
+
+
+#misc a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/mischfront.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#misc a:hover span { 
+	display:block;
+}
+
+
+
+/* BACK */
+
+.back {
+    display:block;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+    font-family: "ZBgrotesk-Book", sans-serif;
+    font-size: 30px;
+    top:27px;
+    right: 35px;
+    position: fixed;
+}
+
+
+.back a:hover, .one a:focus {
+    color: rgb(238,252,144)
+   }
