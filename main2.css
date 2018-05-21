@@ -45,7 +45,9 @@
    
 }
 
-
+.preload {
+    display:none;
+}
 
 
 /* ABOUT */
