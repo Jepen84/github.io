@@ -19,8 +19,8 @@
 }
 
 @font-face {
-    font-family: 'ZBgrotesk-Regular';
-    src: url('./fonts/ZBgrotesk-Regular.woff2') format('woff2');
+    font-family: 'zbgrotesk2-Regular';
+    src: url('./fonts/zbgrotesk2-Regular.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -28,8 +28,8 @@
 }
 
 @font-face {
-    font-family: 'ZBgrotesk-Book';
-    src: url('./fonts/ZBgrotesk-Book.woff2') format('woff2');
+    font-family: 'zbgrotesk2-Book';
+    src: url('./fonts/zbgrotesk2-Book.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -60,7 +60,7 @@ label {
 .about {
     color: black !important;
     font-size: 30px;
-    font-family: "ZBgrotesk-Book", sans-serif;
+    font-family: "zbgrotesk2-Book", sans-serif;
     text-decoration: none !important;
 	text-align: left;
 	position: absolute;
@@ -84,7 +84,7 @@ label {
 #about:hover~label{
     
     display: block;
-    color: rgb(238,252,144);
+    color: rgb(255,125,0);
     cursor: pointer;
    
 }
@@ -94,7 +94,7 @@ label {
     
     text-decoration: underline;
     position: fixed;
-    color: rgb(238,252,144);
+    color: rgb(255,125,0);
    
 }
    
@@ -106,7 +106,7 @@ input[id=about] {
 }
 
 #content{
-    background-color: rgb(238,252,144);
+    background-color: rgb(255,125,0);
     display: none;
     position: absolute;
     width: 600px;
@@ -125,7 +125,7 @@ input[id=about] {
     cursor: default;
     padding: 25px;
     padding-bottom: 35px;
-    font-family: "ZBgrotesk-regular", sans-serif;
+    font-family: "zbgrotesk2-regular", sans-serif;
         
 }
 
@@ -197,7 +197,7 @@ input[id=about] {
 .back a {
     color: black;
     text-decoration: none;
-    font-family: "ZBgrotesk-Book", sans-serif;
+    font-family: "zbgrotesk2-Book", sans-serif;
     font-size: 30px;
     top:27px;
     right: 35px;
@@ -206,5 +206,5 @@ input[id=about] {
 
 
 .back a:hover {
-    color: rgb(238,252,144)
+    color: rgb(255,125,0)
    }
