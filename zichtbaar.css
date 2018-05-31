@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'zbgrotesk2-Regular';
-    src: url('./fonts/zbgrotesk2-Regular.woff2') format('woff2');
+    font-family: 'ZBgrotesk2-Regular';
+    src: url('./fonts/ZBgrotesk2-Regular.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: 'zbgrotesk2-Book';
-    src: url('./fonts/zbgrotesk2-Book.woff2') format('woff2');
+    font-family: 'ZBgrotesk2-Book';
+    src: url('./fonts/ZBgrotesk2-Book.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -56,7 +56,7 @@ body {
 .about {
     color: black;
     font-size: 30px;
-    font-family: "zbgrotesk2-Book", sans-serif;
+    font-family: "ZBgrotesk2-Book", sans-serif;
     text-decoration: none !important;
 	text-align: left;
 	position: fixed;
@@ -120,7 +120,7 @@ input[id=about] {
     cursor: default;
     padding: 25px;
     padding-bottom: 35px;
-    font-family: "zbgrotesk2-Regular", sans-serif;
+    font-family: "ZBgrotesk2-Regular", sans-serif;
     
 }
 
@@ -144,7 +144,7 @@ input[id=about] {
 .back a {
     color: black;
     text-decoration: none;
-    font-family: "zbgrotesk2-Book", sans-serif;
+    font-family: "ZBgrotesk2-Book", sans-serif;
     font-size: 30px;
     top:27px;
     right: 35px;
