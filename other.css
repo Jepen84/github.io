@@ -1,8 +1,8 @@
 
 
 @font-face {
-    font-family:'AfgangBOOK-Regular';
-    src: url('./fonts/AfgangBOOK-Regular.woff2') format('woff2');
+    font-family: 'ZBgrotesk2-Regular';
+    src: url('./fonts/ZBgrotesk2-Regular.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -10,26 +10,8 @@
 }
 
 @font-face {
-    font-family: 'AfgangBOOK-RegularItalic';
-    src: url('./fonts/AfgangBOOK-RegularItalic.woff2') format('woff2');
-         font-weight: normal;
-    	 font-style: italic;
-
-	
-}
-
-@font-face {
-    font-family: 'ZBgrotesk-Regular';
-    src: url('./fonts/ZBgrotesk-Regular.woff2') format('woff2');
-         font-weight: normal;
-    	 font-style: normal;
-
-	
-}
-
-@font-face {
-    font-family: 'ZBgrotesk-Book';
-    src: url('./fonts/ZBgrotesk-Book.woff2') format('woff2');
+    font-family: 'ZBgrotesk2-Book';
+    src: url('./fonts/ZBgrotesk2-Book.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
 
@@ -55,7 +37,7 @@
 .about {
     color: black;
     text-decoration: none !important;
-    font-family: "ZBgrotesk-Book", sans-serif;
+    font-family: "ZBgrotesk2-Book", sans-serif;
     font-size: 30px;
     bottom:27px;
     right: 35px;
@@ -65,7 +47,7 @@
     
         
 .about:hover {
-    color: rgb(238,252,144);    
+    color: rgb(255,125,0);    
 }
 
 
@@ -103,8 +85,8 @@ input[id=about] {
     cursor: default;
     padding: 25px;
     padding-bottom: 35px;
-    font-family: "ZBgrotesk-Regular", sans-serif;
-    color: rgb(238,252,144);
+    font-family: "ZBgrotesk2-Regular", sans-serif;
+    color: rgb(255,125,0);
     
     
 }
@@ -132,7 +114,7 @@ input[id=about] {
     left: 25px;
     color: black;
     font-size: 3.5em;
-    font-family: "ZBgrotesk-Regular";
+    font-family: "ZBgrotesk2-Regular";
     text-decoration: none !important;
     
     
@@ -140,7 +122,7 @@ input[id=about] {
 
 
 .center a:hover, .one a:focus {
-    color: rgb(238,252,144)
+    color: rgb(255,125,0)
    }
 
 
@@ -278,7 +260,7 @@ input[id=about] {
 .back a {
     color: black;
     text-decoration: none;
-    font-family: "ZBgrotesk-Book", sans-serif;
+    font-family: "ZBgrotesk2-Book", sans-serif;
     font-size: 30px;
     top:27px;
     right: 35px;
@@ -287,5 +269,5 @@ input[id=about] {
 
 
 .back a:hover, .one a:focus {
-    color: rgb(238,252,144)
+    color: rgb(255,125,0)
    }
