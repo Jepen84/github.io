@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'ZBgrotesk-Regular';
+    font-family: 'zbgrotesk2-Regular';
     src: url('./fonts/Another-Regular.woff2') format('woff2');
          font-weight: normal;
     	 font-style: normal;
@@ -55,7 +55,7 @@
 .about {
      color: black !important;
     text-decoration: none !important;
-    font-family: "ZBgrotesk-Book", sans-serif;
+    font-family: "zbgrotesk2-Book", sans-serif;
     font-size: 30px;
     bottom:27px;
     right: 35px;
@@ -81,7 +81,7 @@ input[id=about] {
 }
 
 #content{
-    background-color: rgb(238,252,144);
+    background-color: rgb(255,125,0);
     display: none;
     position: fixed;
     width: 300px;
@@ -100,7 +100,7 @@ input[id=about] {
     cursor: default;
     padding: 25px;
     padding-bottom: 35px;
-    font-family: "ZBgrotesk-Regular", sans-serif;
+    font-family: "zbgrotesk2-Regular", sans-serif;
     
     
 }
@@ -198,7 +198,7 @@ label {
 
 p {
     
-    font-family: "ZBgrotesk-Regular", sans-serif;
+    font-family: "zbgrotesk2-Regular", sans-serif;
     font-size: 30px;
     padding-top: 20px;
     line-height: 0px;
@@ -295,7 +295,7 @@ p {
 }
 
 
-#ZBgrotesk a span { 
+#zbgrotesk2 a span { 
 	display:none; 
     background-image: url("https://jepen84.github.io/github.io/images/zbmain.png");
     background-size: cover;
@@ -309,7 +309,7 @@ p {
 }
 
 
-#ZBgrotesk a:hover span { 
+#zbgrotesk2 a:hover span { 
 	display:block;
 }
 
