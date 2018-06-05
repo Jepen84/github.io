@@ -1,23 +1,4 @@
 
-
-@font-face {
-    font-family:'AfgangBOOK-Regular';
-    src: url('./fonts/AfgangBOOK-Regular.woff2') format('woff2');
-         font-weight: normal;
-    	 font-style: normal;
-
-	
-}
-
-@font-face {
-    font-family: 'AfgangBOOK-RegularItalic';
-    src: url('./fonts/AfgangBOOK-RegularItalic.woff2') format('woff2');
-         font-weight: normal;
-    	 font-style: italic;
-
-	
-}
-
 @font-face {
     font-family: 'ZBgrotesk2-Regular';
     src: url('./fonts/ZBgrotesk2-Regular.woff2') format('woff2');
@@ -36,8 +17,6 @@
 	
 }
 
-
-/* PRELOAD */
 
 
 /* BODY */
