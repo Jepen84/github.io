@@ -119,9 +119,10 @@ input[id=about] {
 
 .imagewrapper {
     
+    display: block;
     float:left;
     z-index: -9999;
-    
+    width:100%
    
 }
 
@@ -138,6 +139,12 @@ img {
     
 }
 
+#img2 {
+    display:inline-block;
+    
+    
+    
+}
 
 
 
