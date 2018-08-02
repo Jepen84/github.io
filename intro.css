@@ -23,6 +23,7 @@
 
 .body {
     background-color: rgb(255, 255, 255);
+
    
 }
 
@@ -102,18 +103,16 @@ input[id=about] {
 
 
    
-        
-    
-}
 
 /* left */
 
 
 .left {
     float:left;
-    padding-left: 55px;
-    padding-bottom: 200px;
-    padding-top: 250px;  
+    padding-left: 40px;
+    padding-top: 25px;
+    
+    
 
 }
 
@@ -138,8 +137,8 @@ input[id=about] {
 
 .right {
     float:right;
-    padding-right: 40px;
-    padding-top: 25px;
+    padding-right:175px;
+    padding-top: 175px;
     padding-bottom: 200px;
 
     
@@ -160,9 +159,4 @@ input[id=about] {
    }
 
 
-.row:after {
-    content: "";
-    display: table;
-    clear; both;
-}
 
