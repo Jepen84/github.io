@@ -111,10 +111,9 @@ input[id=about] {
 
 .left {
     float:left;
-    padding-left: 40px;
-    height: 50%;
-    width: 45%;
+    padding-left: 55px;
     padding-bottom: 200px;
+    padding-top: 250px;  
 
 }
 
@@ -166,6 +165,4 @@ input[id=about] {
     display: table;
     clear; both;
 }
-/* GIF */
-
 
