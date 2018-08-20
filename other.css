@@ -216,7 +216,7 @@ input[id=about] {
 	display:none; 
     background-image: url("https://jepen84.github.io/github.io/images/elvshover.png");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     position: fixed;
     width: 100%;
   	height: 100%;
@@ -246,6 +246,24 @@ input[id=about] {
 
 
 #gallus a:hover span { 
+	display:block;
+}
+
+#psws a span { 
+	display:none; 
+    background-image: url("https://jepen84.github.io/github.io/images/pswshover.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: fixed;
+    width: 100%;
+  	height: 100%;
+	left: 0;
+	top: 0;
+    z-index:-9999;
+}
+
+
+#psws a:hover span { 
 	display:block;
 }
 
